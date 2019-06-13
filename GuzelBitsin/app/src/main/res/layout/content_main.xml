@@ -9,7 +9,9 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:background="#FFDC00"
-        android:text="Create New Recipe" />
+        android:text="Create New Recipe"
+        android:onClick="createNewRecipe"
+        />
 
     <Button
         android:id="@+id/button2"
@@ -17,6 +19,8 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:background="#8BC34A"
-        android:text="My Recipes" />
+        android:text="My Recipes"
+        android:onClick="myRecipes"
+        />
 
 </LinearLayout>
