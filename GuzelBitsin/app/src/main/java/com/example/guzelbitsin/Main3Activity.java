@@ -16,6 +16,7 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
     }
     public void confirm2(View view) {
-
+        Intent intent = new Intent(this, Main4Activity.class);
+        startActivity(intent);
     }
 }
