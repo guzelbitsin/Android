@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "794621319280",
+    "firebase_url": "https://guzelbitsin.firebaseio.com",
+    "project_id": "guzelbitsin",
+    "storage_bucket": "guzelbitsin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794621319280:android:f8af1b5a01895ce6",
+        "android_client_info": {
+          "package_name": "com.example.guzelbitsin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794621319280-467nug452oo112tm2js79mdjdnjluunu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guzelbitsin",
+            "certificate_hash": "6c4a0f2dfb23be034f372cfe6d3e95ee3c379c66"
+          }
+        },
+        {
+          "client_id": "794621319280-bthhb6b4fj2sf0b9qu1e26o117b0bqi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDOCtDBz1r9VM-1Gkq4-GEEMaAHOCcrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794621319280-bthhb6b4fj2sf0b9qu1e26o117b0bqi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
