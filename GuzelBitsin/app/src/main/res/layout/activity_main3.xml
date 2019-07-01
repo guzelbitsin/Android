@@ -2,15 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_below="@+id/editText1"
-        android:layout_marginRight="42dp"
-        android:layout_marginTop="76dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="45dp"
         android:onClick="confirm2"
         android:text="Confirm" />
 
@@ -20,9 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
 
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="63dp"
         android:ems="10"
-        android:hint="Enter the #tag..." >
+        android:hint="Enter the #tag...">
 
         <requestFocus />
     </EditText>
