@@ -13,7 +13,7 @@ public class EnterTagActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.entertagactivity);
     }
-    public void confirm2(View view) {
+    public void tagConfirm(View view) {
         Intent intent = new Intent(this, ChoosePhotoActivity.class);
         startActivity(intent);
     }

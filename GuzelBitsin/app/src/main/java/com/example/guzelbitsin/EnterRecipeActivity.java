@@ -14,7 +14,7 @@ public class EnterRecipeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.enterrecipeactivity);
     }
-    public void confirm1(View view) {
+    public void recipeConfirm(View view) {
         Intent intent = new Intent(this, EnterTagActivity.class);
         startActivity(intent);
     }
