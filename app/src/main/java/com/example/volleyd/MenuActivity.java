@@ -14,12 +14,22 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void createNewRecipe(View view) {
-        //      Intent intent = new Intent(this, EnterRecipeActivity.class);
-        //    startActivity(intent);
+        Intent intent = new Intent(this, EnterRecipeActivity.class);
+        startActivity(intent);
     }
 
     public void myRecipes(View view) {
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void settings(View view) {
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
+    public void search(View view) {
+        Intent intent = new Intent(this, SearchActivity.class);
         startActivity(intent);
     }
 }
