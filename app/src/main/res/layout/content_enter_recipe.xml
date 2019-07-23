@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".EnterRecipeActivity"
     tools:showIn="@layout/activity_enter_recipe">
 
@@ -54,6 +53,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="127dp"
+        android:background="@color/colorAccent"
         android:onClick="enterPhoto"
         android:text="Add photo!"
         app:layout_constraintBottom_toTopOf="@+id/button4"
@@ -67,6 +67,7 @@
         android:layout_width="138dp"
         android:layout_height="50dp"
         android:layout_marginBottom="155dp"
+        android:background="@color/colorAccent"
         android:text="Create!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

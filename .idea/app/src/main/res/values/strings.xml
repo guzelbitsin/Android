@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">volleyd</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_registration">RegistrationActivity</string>
-    <string name="title_activity_settings">SettingsActivity</string>
-    <string name="title_activity_search">SearchActivity</string>
-</resources>
