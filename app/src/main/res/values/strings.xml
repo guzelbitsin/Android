@@ -1,17 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name" tools:ignore="ExtraTranslation">My Application</string>
-    <string name="name_label">Name</string>
-    <string name="name_value">[Name]</string>
-    <string name="id_label">The ID is</string>
-    <string name="id_value">[id]</string>
-    <string name="description_label">The Content is</string>
-    <string name="description_value">[content]</string>
-    <string name="tag_label">Tag</string>
-    <string name="tag_value">[Tag]</string>
-    <string name="image_label">Number</string>
-    <string name="image_value">[Number]</string>
-    <string name="email_label">Email</string>
-    <string name="email_value">[Email]</string>
-    <string name="action_refresh">Refresh</string>
-
+<resources>
+    <string name="app_name">volleyd</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
 </resources>

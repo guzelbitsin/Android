@@ -1,15 +1,15 @@
-package com.example.myapplication;
+package com.example.volleyd;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ChoosePhotoActivity extends AppCompatActivity {
+public class RegistrationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.choosephotoactivity);
+        setContentView(R.layout.activity_registration);
     }
 }
